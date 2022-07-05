@@ -15,7 +15,104 @@
     />
     <title>Satnam S Virdi</title>
 
-    <style></style>
+    <style>
+      body {
+        font-family: 'Libre Franklin', sans-serif;
+        min-height: 100vh;
+        text-transform: uppercase;
+        font-size: var(--base-font-size);
+        padding: 0;
+        margin: 0;
+
+        background-color: #c6c4b9;
+      }
+
+      *,
+      *::after,
+      *::before {
+        box-sizing: border-box;
+      }
+
+      a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      a:hover {
+        color: red;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background: beige; */
+        /* border-bottom: 1px dashed teal; */
+        padding: 0.6rem 1rem;
+        position: fixed;
+        width: 100%;
+        font-variant-caps: all-small-caps;
+      }
+
+      .navbar-links {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      main {
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 3rem;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 0.6rem 1rem;
+      }
+
+      footer p {
+        padding: 0;
+        margin: 0;
+      }
+
+      .small-caps {
+        font-variant: all-small-caps;
+        font-weight: 600;
+      }
+
+      footer span a {
+        text-transform: lowercase;
+        font-weight: 200;
+        font-family: 'Martel', serif;
+      }
+
+      .ml-1 {
+        margin-left: 0.25rem;
+      }
+      .ml-2 {
+        margin-left: 0.5rem;
+      }
+
+      .mb-3 {
+        margin-bottom: 10rem;
+      }
+    </style>
 
     <link rel="stylesheet" href="./style.css" defer />
   </head>
@@ -44,9 +141,15 @@
         </span>
 
         <span>
-          <span class="ml-2 small-caps">Social</span> <a href="">LinkedIn</a>,
-          <a href="">Twitter</a>,
-          <a href="">Instagram</a>
+          <span class="ml-2 small-caps">Social</span>
+          <a href="https://www.linkedin.com/in/satnamsvirdi/" target="_blank"
+            >LinkedIn</a
+          >,
+          <a href="https://twitter.com/satnamsvirdi" target="_blank">Twitter</a
+          >,
+          <a href="https://www.instagram.com/satnamsvirdi" target="_blank"
+            >Instagram</a
+          >
         </span>
       </p>
     </footer>
