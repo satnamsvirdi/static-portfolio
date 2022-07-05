@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;400;600;800&family=Martel:wght@200;400;700&display=swap');
+
+:root {
+  --base-font-size: 14px;
+}
+
+
+@media screen and (max-width: 351px) {
+  h2 {
+    font-size: 1.4rem;
+    transform: rotate(90deg);
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 532px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 533px) and (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
