@@ -1,0 +1,25 @@
+
+@media screen and (max-width: 351px) {
+  h2 {
+    font-size: 1.4rem;
+    transform: rotate(90deg);
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 532px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 533px) and (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+s
